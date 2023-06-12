@@ -55,8 +55,8 @@ router.patch(('/:id',
 # Model
 
 ### Management Department
-- title
 - _id
+- title
 - createdAt
 - updatedAt
 
@@ -93,6 +93,33 @@ router.patch(('/:id',
 -  updatedAt
 
 #### Sample Data
+
+```json
+{
+  "id": "A-00002",
+  "name": {
+    "firstName": "kader",
+    "lastName": "khan",
+    "middleName": "ahmed"
+  },
+  "dateOfBirth": "1990-02-07",
+  "gender": "male",
+  "bloodGroup": "AB+",
+  "email": "kader@gmail.com",
+  "contactNo": "01800000006",
+  "emergencyContactNo": "01800000006",
+  "presentAddress": "asf",
+  "permanentAddress": "asdf",
+  "managementDepartment": "6473c6a50c56d0d40b9bb6a3",
+  "designation": "HR executive",
+  "profileImage": "https://via.placeholder.com/150x150",
+  "createdAt": "2023-05-31T14:42:22.747Z",
+  "updatedAt": "2023-06-01T08:54:57.058Z"
+}
+```
+
+
+#### Sample Data (After Populate)
 
 ```json
 {
