@@ -60,9 +60,11 @@ router.patch(('/:id',
 #### Sample Data
 
 ```json
-{ "title": "Account Management" }
-{ "title": "HR Management" }
-{ "title": "Finance Management" }
+{
+  "title": "Account Management",
+  "createdAt": "2023-05-28T21:24:53.677Z",
+  "updatedAt": "2023-05-28T21:24:53.677Z"
+}
 ```
 
 ### Admin
@@ -101,10 +103,15 @@ router.patch(('/:id',
   "emergencyContactNo": "01800000006",
   "presentAddress": "asf",
   "permanentAddress": "asdf",
-  "managementDepartment":  "6473c6ad0c56d0d40b9bb6a5",
+  "managementDepartment": {
+    "_id": "6473c6a50c56d0d40b9bb6a3",
+    "title": "Account Management",
+    "createdAt": "2023-05-28T21:24:53.677Z",
+    "updatedAt": "2023-05-28T21:24:53.677Z"
+  },
   "designation": "HR executive",
-  "profileImage":"https://via.placeholder.com/150x150",
+  "profileImage": "https://via.placeholder.com/150x150",
   "createdAt": "2023-05-31T14:42:22.747Z",
-  "updatedAt": "2023-06-01T08:54:57.058Z",
+  "updatedAt": "2023-06-01T08:54:57.058Z"
 }
 ```
