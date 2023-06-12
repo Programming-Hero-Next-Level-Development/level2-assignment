@@ -56,6 +56,9 @@ router.patch(('/:id',
 
 ### Management Department
 - title
+- _id
+- createdAt
+- updatedAt
 
 #### Sample Data
 
@@ -69,6 +72,7 @@ router.patch(('/:id',
 ```
 
 ### Admin
+- _id: ObjectID
 -  id: string;
 -  name:
     -  firstName
@@ -85,6 +89,8 @@ router.patch(('/:id',
 -  managementDepartment
 -  designation
 -  profileImage (optional)
+-  createdAt
+-  updatedAt
 
 #### Sample Data
 
