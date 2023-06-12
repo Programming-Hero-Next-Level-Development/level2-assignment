@@ -61,9 +61,10 @@ router.patch(('/:id',
 
 ```json
 {
-  "title": "Account Management",
-  "createdAt": "2023-05-28T21:24:53.677Z",
-  "updatedAt": "2023-05-28T21:24:53.677Z"
+    "_id": "6473c6a50c56d0d40b9bb6a3",
+    "title": "Account Management",
+    "createdAt": "2023-05-28T21:24:53.677Z",
+    "updatedAt": "2023-05-28T21:24:53.677Z"
 }
 ```
 
