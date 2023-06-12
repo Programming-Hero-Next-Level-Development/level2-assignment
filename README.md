@@ -24,7 +24,7 @@ router.patch(
 );
 ```
 
-### reate routes, controllers ,services,constants,validation , utils for  the admin module  given below
+### Create routes, controllers ,services,constants,validation , utils for  the admin module  given below
 
 #### Root route should be `api/v1/users`.
 
